@@ -1,3 +1,3 @@
 void call() {
-    echo "Building Node Project"
+    sh "npm run build"
 }

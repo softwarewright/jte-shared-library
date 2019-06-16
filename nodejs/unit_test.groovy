@@ -1,4 +1,3 @@
 void call() {
-    echo "Building Node Project"
-
+    echo "npm test"
 }
