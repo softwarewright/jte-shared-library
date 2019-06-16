@@ -1,3 +1,6 @@
 void call() {
-    echo "npm test"
+    nodejs('NodeJS 10') {
+        sh "npm ci"
+        sh "npm test"
+    }
 }

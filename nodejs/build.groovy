@@ -1,3 +1,5 @@
 void call() {
-    sh "npm run build"
+    nodejs('NodeJS 10') {
+        sh "npm run build"
+    }
 }
